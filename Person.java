@@ -2,7 +2,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class Person {
+public class Person extends App{
     protected String name;
     private Date dateOfBirth;
 
@@ -32,6 +32,8 @@ public class Person {
             // Displaying person details
             person.displayName();
             person.displayAge();
+            App a =new App();
+            a.sayHello();
             // EmployeeDetails employee = new EmployeeDetails("Amith", "2004-6-2", 1001, 60000.0);
             // // Displaying employee details
             // employee.displayName();
